@@ -1,0 +1,36 @@
+Magnitude,url,origin
+countries_code,/dados/projetos_andamento/CBD-draft/test_target/inputs/countries-code.tif,input
+countries_names_code,/dados/projetos_andamento/CBD-draft/test_target/inputs/countries-code.csv,input
+Brazil_code,/dados/rawdata_dev/subregions/states-code_extended.tif,input for Brazil
+Brazil_names_code,/dados/rawdata_dev/subregions/states-code.csv,input for Brazil
+LU_crops_present,/dados/rawdata/land-use/crop_final.tif,input
+LU_grass_present,/dados/rawdata/land-use/culgrass_final.tif,input
+LU_crops_future,/dados/rawdata-legacy/5km/LU_future/crop_futuro.tif,input
+LU_grass_future,/dados/rawdata-legacy/5km/LU_future/pastagem_futuro.tif,input
+yield_ratio_crops_input,/dados/projetos_andamento/CBD-draft/test_target/inputs/areascropcomgap2000_ilhas_extended.tif,input
+gap_grass,/dados/rawdata-legacy/5km/others/yield_gap_grasslands.tif,input
+potential_productivity_crops,/dados/projetos_andamento/CBD-draft/rawdata/econ/gaez/potential-yield/gaez-*-potential-yield_harm.tif,input
+area_crops,/dados/projetos_andamento/CBD-draft/rawdata/econ/gaez/production-area/gaez-*-area_harm.tif,input
+potential_productivity_grass,/dados/rawdata-legacy/5km/others/potential_yield_grasslands.tif,input
+opportunity_cost_crops,/dados/rawdata/variables/opportunity_costs_cropland_4.9km_Molweide.tif,input
+opportunity_cost_grass,/dados/rawdata/variables/opportunity_costs_grassland_4.9km_Molweide.tif,input
+suitability_crops,../intermediate_rasters/suitability_crops.tif,create_suitability
+suitability_grass,../intermediate_rasters/suitability_grass.tif,create_suitability
+yield_ratio_crops,../intermediate_rasters/yield-ratio_crops.tif,create_yield-ratio
+yield_ratio_grass,../intermediate_rasters/yield-ratio_grass.tif,create_yield-ratio
+average_yield_ratio,../intermediate_rasters/average_yield_ratio.csv,create_yield-ratio
+country_targets,../country_targets.csv,country_target
+sigma,../sigma.tif,country_target
+delta_sigma_1P,../delta_sigma_1P.tif,country_target
+contribution_sigma_crops,../intermediate_rasters/contribution_sigma_crops.tif,country_target
+contribution_sigma_grass,../intermediate_rasters/contribution_sigma_grass.tif,country_target
+suitability_crops_Brazil,../intermediate_rasters/suitability_crops_Brazil.tif,create_suitability_Brazil
+suitability_grass_Brazil,../intermediate_rasters/suitability_grass_Brazil.tif,create_suitability_Brazil
+yield_ratio_crops_Brazil,../intermediate_rasters/yield-ratio_crops_Brazil.tif,create_yield-ratio_Brazil
+yield_ratio_grass_Brazil,../intermediate_rasters/yield-ratio_grass_Brazil.tif,create_yield-ratio_Brazil
+average_yield_ratio_Brazil,../intermediate_rasters/average_yield_ratio_Brazil.csv,create_yield-ratio_Brazil
+country_targets_Brazil,../country_targets_Brazil.csv,country_target_Brazil
+sigma_Brazil,../sigma_Brazil.tif,country_target_Brazil
+delta_sigma_1P_Brazil,../delta_sigma_1P_Brazil.tif,country_target_Brazil
+contribution_sigma_crops_Brazil,../intermediate_rasters/contribution_sigma_crops_Brazil.tif,country_target_Brazil
+contribution_sigma_grass_Brazil,../intermediate_rasters/contribution_sigma_grass_Brazil.tif,country_target_Brazil

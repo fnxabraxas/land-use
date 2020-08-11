@@ -1,0 +1,29 @@
+Magnitude,url,origin
+countries_code,/dados/projetos_andamento/CBD-draft/test_target/inputs/countries-code.tif,input
+countries_names_code,/dados/projetos_andamento/CBD-draft/test_target/inputs/countries-code.csv,input
+Brazil_code,/dados/rawdata_dev/subregions/states-code_extended.tif,input for Brazil
+Brazil_names_code,/dados/rawdata_dev/subregions/states-code.csv,input for Brazil
+LU_crops_present,/dados/rawdata/land-use/crop_final.tif,input
+LU_grass_present,/dados/rawdata/land-use/culgrass_final.tif,input
+LU_crops_future,/dados/rawdata-legacy/5km/LU_future/crop_futuro.tif,input
+LU_grass_future,/dados/rawdata-legacy/5km/LU_future/pastagem_futuro.tif,input
+yield_ratio_crops_input,/dados/projetos_andamento/CBD-draft/test_target/inputs/areascropcomgap2000_ilhas_extended.tif,input
+gap_grass,/dados/rawdata-legacy/5km/others/yield_gap_grasslands.tif,input
+suitability_crops,/dados/projetos_andamento/CBD-draft/rawdata/econ/prop_defor/crops_gaez_suitability_stand.tif,input
+suitability_grass,/dados/projetos_andamento/CBD-draft/rawdata/econ/prop_defor/crops_gaez_suitability_stand.tif,input
+yield_ratio_crops,../intermediate_rasters/yield-ratio_crops.tif,create_yield-ratio
+yield_ratio_grass,../intermediate_rasters/yield-ratio_grass.tif,create_yield-ratio
+average_yield_ratio,../intermediate_rasters/average_yield_ratio.csv,create_yield-ratio
+country_targets,../country_targets.csv,country_target
+sigma_crops,../sigma_crops.tif,country_target
+delta_sigma_1P_crops,../delta_sigma_1P_crops.tif,country_target
+sigma_grass,../sigma_grass.tif,country_target
+delta_sigma_1P_grass,../delta_sigma_1P_grass.tif,country_target
+yield_ratio_crops_Brazil,../intermediate_rasters/yield-ratio_crops_Brazil.tif,create_yield-ratio_Brazil
+yield_ratio_grass_Brazil,../intermediate_rasters/yield-ratio_grass_Brazil.tif,create_yield-ratio_Brazil
+average_yield_ratio_Brazil,../intermediate_rasters/average_yield_ratio_Brazil.csv,create_yield-ratio_Brazil
+country_targets_Brazil,../country_targets_Brazil.csv,country_target_Brazil
+sigma_crops_Brazil,../sigma_crops_Brazil.tif,country_target_Brazil
+delta_sigma_1P_crops_Brazil,../delta_sigma_1P_crops_Brazil.tif,country_target_Brazil
+sigma_grass_Brazil,../sigma_grass_Brazil.tif,country_target_Brazil
+delta_sigma_1P_grass_Brazil,../delta_sigma_1P_grass_Brazil.tif,country_target_Brazil
